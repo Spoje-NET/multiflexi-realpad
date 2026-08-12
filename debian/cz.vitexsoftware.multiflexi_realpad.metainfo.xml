@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="addon">
+  <id>cz.vitexsoftware.multiflexi_realpad</id>
+  <metadata_license>MIT</metadata_license>
+  <project_license>MIT</project_license>
+  <name>MultiFlexi Realpad</name>
+  <summary>Realpad CRM credential prototype for MultiFlexi</summary>
+  <description>
+    <p>
+      Provides the Realpad CRM credential prototype for MultiFlexi core,
+      defining the username and password configuration fields required
+      to connect to the Realpad API.
+    </p>
+  </description>
+  <icon type="stock">network-transmit-receive</icon>
+  <url type="homepage">https://github.com/Spoje-NET/multiflexi-realpad</url>
+  <url type="bugtracker">https://github.com/Spoje-NET/multiflexi-realpad/issues</url>
+  <extends>cz.vitexsoftware.multiflexi</extends>
+  <categories>
+    <category>Office</category>
+  </categories>
+  <provides>
+    <library>MultiFlexi/CredentialProtoType/Realpad.php</library>
+  </provides>
+  <releases>
+    <release version="1.0.0" date="2026-08-12" type="development" />
+  </releases>
+  <developer id="cz.vitexsoftware">
+    <name>Vítězslav Dvořák</name>
+  </developer>
+  <content_rating type="oars-1.1" />
+</component>

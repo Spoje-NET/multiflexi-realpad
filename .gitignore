@@ -1,0 +1,11 @@
+vendor/
+.build/
+.phpunit.cache/
+debian/debhelper-build-stamp
+debian/*.debhelper
+debian/*.debhelper.log
+debian/*.substvars
+debian/files
+debian/tmp/
+debian/multiflexi-realpad/
+/nbproject/private/

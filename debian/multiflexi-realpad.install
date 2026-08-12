@@ -1,0 +1,3 @@
+src/MultiFlexi/CredentialProtoType/Realpad.php  usr/share/php/MultiFlexi/CredentialProtoType/
+src/images/Realpad.svg                          usr/share/multiflexi/images/
+debian/cz.vitexsoftware.multiflexi_realpad.metainfo.xml  usr/share/metainfo/

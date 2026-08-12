@@ -1,0 +1,7 @@
+multiflexi-realpad (1.0.0) UNRELEASED; urgency=medium
+
+  * Initial release: Realpad credential prototype for MultiFlexi core.
+    Provides REALPAD_USERNAME/REALPAD_PASSWORD fields and a
+    checkAvailability() live check against the Realpad API.
+
+ -- "Vítězslav Dvořák" <info@vitexsoftware.cz>  Wed, 12 Aug 2026 20:00:00 +0200

@@ -1,0 +1,18 @@
+Source: multiflexi-realpad
+Section: web
+Priority: optional
+Maintainer: "Vítězslav Dvořák" <info@vitexsoftware.cz>
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.7.0
+Homepage: https://github.com/Spoje-NET/multiflexi-realpad
+Rules-Requires-Root: no
+
+Package: multiflexi-realpad
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, php-vitexsoftware-multiflexi-core, multiflexi-cli (>= 2.2.0)
+Description: MultiFlexi Realpad credential prototype
+ Realpad CRM API credential prototype for MultiFlexi core.
+ Provides the CredentialProtoType class that defines the Realpad
+ username and password configuration fields.
