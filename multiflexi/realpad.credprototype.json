@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/VitexSoftware/php-vitexsoftware-multiflexi-core/refs/heads/main/schema/credential-prototype.json",
+  "uuid": "48f09877-37a0-48a7-8f5b-0d66b26c8efd",
+  "code": "Realpad",
+  "name": {
+    "en": "Realpad API Credentials",
+    "cs": "Přihlašovací údaje k Realpad API"
+  },
+  "description": {
+    "en": "Credentials required to access the Realpad API.",
+    "cs": "Přihlašovací údaje potřebné pro přístup k Realpad API."
+  },
+  "version": "1.0",
+  "fields": [
+    {
+      "keyword": "REALPAD_USERNAME",
+      "name": {
+        "en": "Realpad API Username",
+        "cs": "Uživatelské jméno Realpad API"
+      },
+      "type": "string",
+      "description": {
+        "en": "Username for Realpad API authentication.",
+        "cs": "Uživatelské jméno pro autentizaci k Realpad API."
+      },
+      "required": true
+    },
+    {
+      "keyword": "REALPAD_PASSWORD",
+      "name": {
+        "en": "Realpad API Password",
+        "cs": "Heslo Realpad API"
+      },
+      "type": "password",
+      "description": {
+        "en": "Password for Realpad API authentication.",
+        "cs": "Heslo pro autentizaci k Realpad API."
+      },
+      "required": true
+    }
+  ],
+  "homepage": "https://www.realpad.eu/",
+  "tags": [
+    "Realpad",
+    "real-estate",
+    "CRM"
+  ]
+}
