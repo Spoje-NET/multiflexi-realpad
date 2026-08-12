@@ -12,7 +12,7 @@
       to connect to the Realpad API.
     </p>
   </description>
-  <icon type="stock">network-transmit-receive</icon>
+  <icon type="stock">multiflexi-realpad</icon>
   <url type="homepage">https://github.com/Spoje-NET/multiflexi-realpad</url>
   <url type="bugtracker">https://github.com/Spoje-NET/multiflexi-realpad/issues</url>
   <extends>cz.vitexsoftware.multiflexi</extends>

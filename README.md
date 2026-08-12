@@ -1,6 +1,6 @@
 # multiflexi-realpad
 
-![Realpad](src/images/Realpad.svg)
+![MultiFlexi Realpad](multiflexi-realpad.svg)
 
 Realpad CRM integration support for [MultiFlexi](https://multiflexi.eu).
 
