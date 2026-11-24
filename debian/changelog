@@ -1,3 +1,12 @@
+multiflexi-realpad (1.0.1) UNRELEASED; urgency=medium
+
+  * checkAvailability(): send login and password as POST form fields instead
+    of HTTP Basic auth, which Realpad rejected with HTTP 400.
+  * checkAvailability(): report Available for HTTP 2xx only; 400, 401 and 403
+    are Misconfigured, 429 is Degraded, anything else is Unavailable.
+
+ -- "Vítězslav Dvořák" <info@vitexsoftware.cz>  Tue, 24 Nov 2026 19:30:00 +0100
+
 multiflexi-realpad (1.0.0) UNRELEASED; urgency=medium
 
   * Initial release: Realpad credential prototype for MultiFlexi core.
