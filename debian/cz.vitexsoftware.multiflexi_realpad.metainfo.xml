@@ -23,6 +23,7 @@
     <library>MultiFlexi/CredentialProtoType/Realpad.php</library>
   </provides>
   <releases>
+    <release version="1.0.1" date="2026-11-24" type="stable" />
     <release version="1.0.0" date="2026-08-12" type="development" />
   </releases>
   <developer id="cz.vitexsoftware">
